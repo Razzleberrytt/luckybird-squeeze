@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Layout */
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+/* Headings & Paragraphs */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Image */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+/* CTA Button */
+.cta {
+  display: inline-block;
+  background: linear-gradient(to right, #22c55e, #10b981);
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.cta:hover {
+  background: linear-gradient(to right, #16a34a, #059669);
+  transform: scale(1.05);
+}
+
+/* FAQ Section */
+.faq {
+  background: #1e293b;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.faq h2 {
+  margin-top: 0;
+  color: #38bdf8;
+}
